@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.1 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
 
 body,
 html {
@@ -24,7 +19,7 @@ body {
 }
 
 .content-section-heading h2 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .content-section-heading h3 {
@@ -33,7 +28,10 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-family: 'Fredericka the Great';
+}
+
 h3,
 h4,
 h5,
@@ -43,21 +41,6 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -91,7 +74,7 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 3rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/pinochio.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pinochio.jpg");
@@ -106,12 +89,19 @@ h6 {
   padding: 0;
 }
 
+.masthead h3 {
+  font-size: 1rem;
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
   .masthead h1 {
     font-size: 5.5rem;
+  }
+  .masthead h3 {
+    font-size: 2rem;
   }
 }
 
@@ -204,34 +194,6 @@ h6 {
   background: #343a40;
 }
 
-/* .service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-} */
-
-/* .callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-} */
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -259,7 +221,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -295,7 +257,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #5983b3;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -369,9 +331,9 @@ a:hover, a:focus, a:active {
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #fff !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #5983b3 !important;
 }
