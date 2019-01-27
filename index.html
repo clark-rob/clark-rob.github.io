@@ -26,7 +26,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
+    <!-- <a class="menu-toggle rounded" href="#">
       <i class="fas fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
@@ -50,7 +50,7 @@
           <a class="js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
 
     <!-- Header -->
     <header class="masthead d-flex">
@@ -70,12 +70,13 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-2 rounded float-left">
-            <img src="img/profile.jpg" alt="My Lovely Face">
+            <img src="public/profile.jpg" alt="My Lovely Face">
           </div>
           <div class="col-lg-8 mx-auto">
             <h2>"Allow myself to introduce...myself..."</h2>
-            <p class="lead mb-lg-5">Hi everyone! My name is Robert Clark and welcome to my portfolio! Since I was a kid, I've loved finding new ways of creating. From pencil to paper, to a mouse and computer, artwork is my way of expressing my personality. Over the last 3 months, I have been able to learn a new way to bring my ideas to life using the fundamentals of web development.</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#skillset">Skillset</a>
+            <!-- <a class="btn btn-primary btn-md mb-2" href="public/RobertGClark-Resume.pdf" target="_blank">Resume</a> -->
+            <p class="lead mb-lg-5">Hi everyone! My name is <a href="public/RobertGClark-Resume.pdf" target="_blank">Robert Clark</a> and welcome to my portfolio! Since I was a kid, I've loved finding new ways of creating. From pencil to paper, to a mouse and computer, artwork is my way of expressing my personality. Over the last 4 months, I have been able to learn a new way to bring my ideas to life using the fundamentals of web development.</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#skillset">Languages & Toolset</a>
           </div>
         </div>
       </div>
@@ -122,7 +123,7 @@
               <li>GitHub</li>
             </h4>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+          <div class="col-lg-12 col-md-6 mb-5 mb-lg-6">
             <!-- <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span> -->
@@ -132,18 +133,9 @@
             </h4>
           </div>
         </div>
+        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#projects">Projects</a>
       </div>
     </section>
-
-    <!-- Callout -->
-    <!-- <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-      </div>
-    </section> -->
 
     <!-- Projects -->
     <section class="content-section" id="projects">
@@ -151,6 +143,7 @@
         <div class="content-section-heading text-center">
           <h2 class="text-secondary mb-0">My Creations</h2>
           <h4 class="mb-5">Here are a few pieces of work. Hope you enjoy them!</h4>
+          <h5 class="mb-5">Click on each photo to be taken to the live site!</h5>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
@@ -158,46 +151,49 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>Super Tic-Tac Bros</h2>
-                  <p class="mb-0">A fully functional Single Page Application  game based on Nintendo's Super Mario Bros.</p>
+                  <p class="mb-0">Front-End Project<br/> A fully functional Single Page Application game based on Nintendo's Super Mario Bros.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/super-bros.png" alt="Super-Tic-Tac-Bros">
+              <img class="img-fluid" src="public/super-bros.png" alt="Super-Tic-Tac-Bros">
             </a>
           </div>
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://clark-rob.github.io/level-up-client/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Level Up: Personal Game Library</h2>
-                  <p class="mb-0">A personal logging app that allows a signed in user to track their personal video game collection.</p>
+                  <h2>Level Up</h2>
+                  <p class="mb-0">Full-Stack Project<br/> A personal logging app that allows a signed in user to catalog their personal video game collection.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/level-up.png" alt="Level-Up">
+              <img class="img-fluid" src="public/level-up.png" alt="Level-Up">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://team-zorro.github.io/team-zorro-client/">
               <span class="caption">
                 <span class="caption-content">
                   <h2>Sserpdrow</h2>
-                  <p class="mb-0">I like fish if it fits, i sits for hide at bottom of staircase to trip human cuddle no cuddle cuddle love scratch scratch spit up on light gray carpet instead of adjacent linoleum.</p>
+                  <p class="mb-0">Group project<br/> A Content Management System where businesses can create and manipulate personal websites and blogs for visitors to view.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+              <img class="img-fluid" src="public/sserpdrow.png" alt="Sserpdrow">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://clark-rob.github.io/vango-client/#/">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>V.A.N.Go! Drawing Application</h2>
-                  <p class="mb-0">You're meant to have fun in life. Trees grow however makes them happy. Life is too short to be alone, too precious. Share it with a friend. We'll take a little bit of Van Dyke Brown.
-</p>
+                  <h2>V.A.N.Go!</h2>
+                  <p class="mb-0">Capstone Project<br/> A drawing application where the user can write a phrase containing a verb, adjective and noun, and then draw their idea for the community to see.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src="public/vango.png" alt="V.A.N.Go!">
             </a>
           </div>
+        </div>
+        <br/>
+        <div class="content-section-ending text-center">
+          <h4 class="mb-8">*If you would like to view the repository of any of my creations, be sure to checkout my GitHub page at the link below.</h4>
         </div>
       </div>
     </section>
@@ -207,7 +203,7 @@
       <div class="contact-me">Lets Connect!</div>
       <li class="list-inline-item">
         <!-- resume link that opens on new tab -->
-        <a class="social-link rounded-circle text-white mr-1" href="#" target="_blank">
+        <a class="social-link rounded-circle text-white mr-1" href="public/RobertGClark-Resume.pdf" target="_blank">
           <!-- doc icon button-->
           <i class="icon-doc"></i>
         </a>
@@ -229,7 +225,7 @@
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Robert Clark 2018 Creation</p>
+        <p class="text-muted small mb-0">Copyright &copy; Robert Clark 2019 Creation</p>
       </div>
     </footer>
 
