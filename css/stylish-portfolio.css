@@ -9,8 +9,28 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+h1,
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
+}
+
+.contact-me {
+  background-color: #1d809faa;
+  color: #fff;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .content-section {
@@ -27,45 +47,8 @@ body {
   text-transform: uppercase;
 }
 
-h1,
-h2 {
-  font-family: 'Fredericka the Great';
-}
-
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: white;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 45px;
-}
-
-.scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
-}
-
-.scroll-to-top:hover {
-  background: #343a40;
-}
-
-.scroll-to-top i {
-  font-weight: 800;
 }
 
 .masthead {
@@ -97,34 +80,14 @@ h6 {
   .masthead {
     height: 100vh;
   }
+
   .masthead h1 {
     font-size: 5.5rem;
   }
+
   .masthead h3 {
     font-size: 2rem;
   }
-}
-
-.menu-toggle {
-  position: fixed;
-  right: 15px;
-  top: 15px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 50px;
-  z-index: 999;
-}
-
-.menu-toggle:focus,
-.menu-toggle:hover {
-  color: #fff;
-}
-
-.menu-toggle:hover {
-  background: #343a40;
 }
 
 .portfolio-item {
@@ -149,8 +112,10 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
+  background-color: rgba(33, 37, 41, 0.6);
   color: #fff;
   margin: auto 2rem;
+  padding: 1em;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -202,11 +167,20 @@ h6 {
     clip-path: inset(2rem);
     opacity: 1; /* shows text */
   }
+
+  .portfolio-item:hover .caption .caption-content {
+    background-color: inherit;
+  }
 }
 
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/pinochio.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../public/pinochio.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer.footer .social-link {
@@ -215,7 +189,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #1d809f;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -228,20 +202,24 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #1d809f;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #155d74;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #1d809f !important;
+  border-color: #1d809f !important;
   color: #fff !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #155d74 !important;
   border-color: #155d74 !important;
 }
@@ -252,7 +230,9 @@ a:hover, a:focus, a:active {
   color: #fff !important;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
   background-color: #ba9106 !important;
   border-color: #ba9106 !important;
 }
@@ -262,13 +242,13 @@ a:hover, a:focus, a:active {
 }
 
 .btn {
-  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   font-weight: 700;
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #1d809f !important;
 }
 
 .text-primary {
